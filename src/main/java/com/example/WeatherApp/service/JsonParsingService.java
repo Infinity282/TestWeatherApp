@@ -14,7 +14,7 @@ public class JsonParsingService{
     private OkHttpClient client;
     private Response response;
     private String unit;
-    private static final String API_KEY = "652db73004b0a32ebf17323379356f46";
+    private static final String API_KEY = "";
 
     public JSONObject getWeather(){
         client = new OkHttpClient();
