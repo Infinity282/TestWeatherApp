@@ -4,7 +4,6 @@ import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 import org.springframework.stereotype.Service;
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -13,8 +12,7 @@ import java.io.IOException;
 public class JsonParsingService{
     private OkHttpClient client;
     private Response response;
-    private String unit;
-    private static final String API_KEY = "";
+    private static final String API_KEY = "652db73004b0a32ebf17323379356f46";
 
     public JSONObject getWeather(){
         client = new OkHttpClient();
